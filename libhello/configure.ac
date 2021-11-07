@@ -4,6 +4,7 @@
 AC_PREREQ([2.69])
 AC_INIT([libhello], [1.0], [ahmed.masud@saf.ai])
 AC_CONFIG_SRCDIR([configure.ac])
+AC_CONFIG_MACRO_DIRS([m4])
 
 AM_INIT_AUTOMAKE([foreign])
 LT_INIT
