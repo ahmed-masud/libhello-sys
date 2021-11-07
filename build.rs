@@ -7,6 +7,7 @@ use std::env::var;
 fn main() {
     
     let dst = autotools::Config::new("libhello")
+        .reconf("-vif")
         .fast_build(true)
         .enable_static()
         .disable_shared()
