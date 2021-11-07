@@ -37,7 +37,6 @@ Cargo.lock
 ### Autotools ###
 # http://www.gnu.org/software/automake
 
-Makefile.in
 /ar-lib
 /mdate-sh
 /py-compile
@@ -55,7 +54,6 @@ autom4te.cache
 /compile
 /config.cache
 /config.guess
-/config.h.in
 /config.log
 /config.status
 /config.sub
@@ -75,12 +73,6 @@ autom4te.cache
 /texinfo.tex
 
 # http://www.gnu.org/software/m4/
-
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
 
 # Generated Makefile
 # (meta build system like autotools,
